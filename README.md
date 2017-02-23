@@ -8,12 +8,12 @@ Get a shortest route based on Dijkstra Algorithm.
 # Usage
 
 
-## 1. Build a Route Map
+### 1. Build a Route Map
 
 [![](https://raw.github.com/buhikon/JLDijkstra/master/route.png)](https://raw.github.com/buhikon/JLDijkstra/master/route.png)
 [![](https://raw.github.com/buhikon/JLDijkstra/master/route_image.png)](https://raw.github.com/buhikon/JLDijkstra/master/route_image.png)
 
-## 2. Code like below.
+### 2. Code like below.
 ```
 NSString *filePath = [[NSBundle mainBundle] pathForResource:@"route" ofType:@"plist"];
 NSDictionary *graphFromFile = [[NSDictionary alloc] initWithContentsOfFile:filePath];
@@ -38,5 +38,5 @@ distance : 6.9
 ```
 
 # Demo
-## A sample project is included. :-D
+### A sample project is included. :-D
 
