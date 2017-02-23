@@ -11,6 +11,7 @@ Get a shortest route based on Dijkstra Algorithm.
 ## 1. Build a Route Map
 
 [![](https://raw.github.com/buhikon/JLDijkstra/master/route.png)](https://raw.github.com/buhikon/JLDijkstra/master/route.png)
+[![](https://raw.github.com/buhikon/JLDijkstra/master/route_image.png)](https://raw.github.com/buhikon/JLDijkstra/master/route_image.png)
 
 ## 2. Code like below.
 ```
