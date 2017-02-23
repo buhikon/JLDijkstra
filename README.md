@@ -25,5 +25,17 @@ NSLog(@"route : %@", result.route);
 NSLog(@"distance : %.1f", result.distance);
 ```
 
-## 3. A sample project is included. :-D
+# Result Sample
+```
+route : (
+    A,
+    C,
+    B,
+    E
+)
+distance : 6.9
+```
+
+# Demo
+## A sample project is included. :-D
 
