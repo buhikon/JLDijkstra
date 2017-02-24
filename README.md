@@ -10,8 +10,10 @@ Get a shortest route based on Dijkstra Algorithm.
 
 ### 1. Build a Route Map
 
-[![](https://raw.github.com/buhikon/JLDijkstra/master/route.png)](https://raw.github.com/buhikon/JLDijkstra/master/route.png)
 [![](https://raw.github.com/buhikon/JLDijkstra/master/route_image.png)](https://raw.github.com/buhikon/JLDijkstra/master/route_image.png)
+
+
+##### 1-1. example of get a graph from file
 
 ```
 - (NSDictionary *)graphFromFile {
@@ -20,7 +22,11 @@ Get a shortest route based on Dijkstra Algorithm.
     return graphFromFile;
 }
 ```
-OR
+[![](https://raw.github.com/buhikon/JLDijkstra/master/route.png)](https://raw.github.com/buhikon/JLDijkstra/master/route.png)
+(route.plist)
+
+
+##### 1-2. example of get a graph from code
 ```
 - (NSDictionary *)graphFromCode {
     return @{@"A":@{@"B":@(4),@"C":@(0.9)},
@@ -31,7 +37,14 @@ OR
 } 
 ```
 
-### 2. Code like below.
+### 2. Include below 2 files in your project.
+```
+JLDijkstra.h
+JLDijkstra.m
+```
+
+
+### 3. Code like below.
 ```
 #import "JLDijkstra.h"
 
@@ -63,7 +76,7 @@ distance : 6.9
 ```
 
 # Demo
-### A sample project is included. :-D
+A sample project is included. :-D
 
 
 # License
