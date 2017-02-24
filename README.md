@@ -53,13 +53,11 @@ import header
 create a map graph
 ```
 NSDictionary *graph = [self graphFromFile];
-```
 OR
-```
 NSDictionary *graph = [self graphFromCode];
 ```
 
-Go!
+Execute Dijkstra
 ```
 JLDijkstra *dijkstra = [[JLDijkstra alloc] init];
 JLDijkstraResult *result = [dijkstra getRouteFromGraph:graph
