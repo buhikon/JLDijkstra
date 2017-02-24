@@ -1,7 +1,7 @@
 //
 //  JLDijkstra.m
 //
-//  Version 0.1.0
+//  Version 0.1.1
 //
 //  Created by Joey L. on 23/Feb/2017.
 //  Copyright (c) 2017 Joey L. All rights reserved.
@@ -147,6 +147,10 @@
         currentVertex = nextVertex;
     }
     
+    // check whether or not distance is available.
+    double resultDistance = [self.distance[endVertex] doubleValue];
+    if(resultDistance < 0) return nil;
+    
     // backtrack the route
     NSMutableArray *route = [NSMutableArray array];
     [route addObject:endVertex];
@@ -162,7 +166,7 @@
     // create a result object and return
     JLDijkstraResult *result = [[JLDijkstraResult alloc] init];
     result.route = reverceRoute;
-    result.distance = [self.distance[endVertex] doubleValue];
+    result.distance = resultDistance;
     return result;
 }
 

@@ -1,7 +1,7 @@
 //
 //  JLDijkstra.h
 //
-//  Version 0.1.0
+//  Version 0.1.1
 //
 //  Created by Joey L. on 23/Feb/2017.
 //  Copyright (c) 2017 Joey L. All rights reserved.
