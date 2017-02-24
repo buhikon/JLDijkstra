@@ -44,16 +44,31 @@ JLDijkstra.m
 
 
 ### 3. Code like below.
+
+import header
 ```
 #import "JLDijkstra.h"
+```
 
-// NSDictionary *graph = [self graphFromFile];
+create a map graph
+```
+NSDictionary *graph = [self graphFromFile];
+```
+OR
+```
 NSDictionary *graph = [self graphFromCode];
+```
 
+Go!
+```
 JLDijkstra *dijkstra = [[JLDijkstra alloc] init];
 JLDijkstraResult *result = [dijkstra getRouteFromGraph:graph
                                            startVertex:@"A"
                                              endVertex:@"E"];
+```
+
+See the result
+```
 if(result) {
     NSLog(@"route : %@", result.route);
     NSLog(@"distance : %.1f", result.distance);
