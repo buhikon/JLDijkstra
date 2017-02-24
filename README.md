@@ -23,7 +23,6 @@ Get a shortest route based on Dijkstra Algorithm.
 }
 ```
 [![](https://raw.github.com/buhikon/JLDijkstra/master/route.png)](https://raw.github.com/buhikon/JLDijkstra/master/route.png)
-(route.plist)
 
 
 ##### 1-2. example of get a graph from code
