@@ -65,3 +65,7 @@ distance : 6.9
 # Demo
 ### A sample project is included. :-D
 
+
+## License
+
+JLDijkstra is available under the MIT license. See the LICENSE file for more info.
