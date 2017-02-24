@@ -35,6 +35,9 @@ OR
 ```
 #import "JLDijkstra.h"
 
+// NSDictionary *graph = [self graphFromFile];
+NSDictionary *graph = [self graphFromCode];
+
 JLDijkstra *dijkstra = [[JLDijkstra alloc] init];
 JLDijkstraResult *result = [dijkstra getRouteFromGraph:graph
                                            startVertex:@"A"
